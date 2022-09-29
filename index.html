@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <title>Shop</title>
+</head>
+<body>
+    <div class="root">
+        <header class="heading">
+            <div class="upperBar">
+                <ul class="upperBar__item">
+                    <a href="./login-reginter/login.html">
+                        <li>Đăng nhập</li>
+                    </a>
+                    <li>Đăng ký</li>
+                </ul>
+                <ul class="upperBar__item">
+                    <li>Địa chỉ cửa hàng</li>
+                    <li>Đơn vị vận chuyển</li>
+                    <li>Diều khoản & Chính sách</li>
+                    <li>Chính sách hoàn trả</li>
+                </ul>
+            </div>
+            <div class="slider">
+                <div class="navbar">
+                    <div class="navbar__item logo">
+                    </div>
+                    <div class="navbar__item navigation">
+                        <li>Hot trend</li>
+                        <li>Thời trang nam</li>
+                        <li>Thời trang nữ</li>
+                        <li>Thương hiệu</li>
+                    </div>
+                    <div class="navbar__item storeProduct">
+                        <div class="storeProduct__item storeProduct__item--heart">
+                            <i class="fa-solid fa-heart"></i>
+                            <span class="storeProduct__heart--amount">
+                                (<span>0</span>)
+                            </span>
+                        </div>
+                        <div class="storeProduct__item storeProduct__item--cart">
+                            <i class="fa-solid fa-dolly"></i>
+                            <span class="storeProduct__cart--amount">
+                                (<span>0</span>)
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slideShow">
+                    <div class="slideShow__item themeProduct">
+                        <div class="themeProduct__title">
+                            Quần áo mua thu đông 
+                        </div>
+                        <button class="slideBtn themeProduct_btn">
+                            Khám phá
+                        </button>
+                    </div>
+                    <div class="slideShow__item slideProduct">
+                        <div class="slideProduct__title">
+                            Bộ quần đùi bò 
+                        </div>
+                        <div class="slideProduct__price">
+                            299.000đ
+                        </div>
+                        <button class="slideBtn slideProduct__btn">
+                            Chi tiết
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="container__item sidebar">
+                <div class="titleHeading">
+                    Hot Trend
+                </div>
+                <div class="filter">
+                    <div class="filter__item category">
+                        <div class="filter__heading category__heading">
+                            <b>THỂ LOẠI</b>
+                        </div>
+                        <ul class="category__list">
+                            <li>
+                                <label for="category-1">
+                                    Quần Âu
+                                </label>
+                                <input type="checkbox" name="" id="category-1">
+                            </li>
+                            <li>
+                                <label for="category-2">
+                                    Áo Sơ Mi
+                                </label>
+                                <input type="checkbox" name="" id="category-2">
+                            </li>
+                            <li>
+                                <label for="category-3">
+                                    Áo Thun
+                                </label>
+                                <input type="checkbox" name="" id="category-3">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="filter__item trademark">
+                        <div class="filter__heading trademark__heading">
+                            <b>THƯƠNG HIỆU</b>
+                        </div>
+                        <ul class="trademark__list">
+                            <li>
+                                <label for="trademark-1">
+                                    GUCCI
+                                </label>
+                                <input type="checkbox" name="" id="trademark-1">
+                            </li> 
+                            <li>
+                                <label for="trademark-2">
+                                    NIKE
+                                </label>
+                                <input type="checkbox" name="" id="trademark-2">
+                            </li>
+                            <li>
+                                <label for="trademark-3">
+                                    LOUIS VUITTON
+                                </label>
+                                <input type="checkbox" name="" id="trademark-3">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="filter__item priceRange">
+                        <div class="filter__heading priceRange__heading">
+                            <b>KHOẢNG GIÁ</b>
+                        </div>
+                        <ul class="priceRange__list">
+                            <li>
+                                <input type="number">
+                                <span>đến</span>
+                                <input type="number">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="filter__item clearFilter">
+                        Xóa lựa chọn
+                    </div>
+                </div>
+            </div>
+            <div class="container__item content">
+                <div class="search">
+                    <div class="search__icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>    
+                    </div>
+                    <input type="text" placeholder="Tìm kiếm">
+                    <div class="optionCategory">
+                        Thể Loại
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__item">
+                        <div class="product__item--image">
+                            <div class="add__heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img src="https://cdn.gumac.vn/image/01/onpage5/28/cach-phoi-mau-quan-ao-nu-dep091120191533581728.jpg" alt="">
+                            <ul class="optionColor">
+                                <li class="colorRed"></li>
+                                <li class="colorBlue"></li>
+                                <li class="colorYellow"></li>
+                            </ul>
+                            <div class="addCart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <ul class="optionSize">
+                                <li>S</li>
+                                <li>M</li>
+                                <li>L</li>
+                                <li>XL</li>
+                            </ul>
+                        </div>
+
+                        <div class="product__infoBasic">
+                            <div class="product__infoBasic--title">
+                                Quan ao phong cach Han Quoc
+                            </div>
+                            <div class="product__infoBasic--price">
+                                500.000 đ
+                            </div>
+                        </div>
+                        <span class="product__trademark">
+                            GUCCI
+                        </span>
+                    </div><div class="product__item">
+                        <div class="product__item--image">
+                            <div class="add__heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img src="https://dongphuchaianh.vn/wp-content/uploads/2022/06/quan-ao-cong-so-nu-mau-trang.jpg" alt="">
+                            <ul class="optionColor">
+                                <li class="colorRed"></li>
+                                <li class="colorBlue"></li>
+                                <li class="colorYellow"></li>
+                            </ul>
+                            <div class="addCart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <ul class="optionSize">
+                                <li>S</li>
+                                <li>M</li>
+                                <li>L</li>
+                                <li>XL</li>
+                            </ul>
+                        </div>
+                        <div class="product__infoBasic">
+                            <div class="product__infoBasic--title">
+                                Quan ao phong cach Han Quoc
+                            </div>
+                            <div class="product__infoBasic--price">
+                                500.000 đ
+                            </div>
+                        </div>
+                        <span class="product__trademark">
+                            GUCCI
+                        </span>
+                    </div><div class="product__item">
+                        <div class="product__item--image">
+                            <div class="add__heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img src="https://cdb.boxhoidap.com/cdbjp/mau-quan-ao-hot-nhat-hien-nay-nam--998463fb8fdacc60606b14de33cb53b2.wepb" alt="">
+                            <ul class="optionColor">
+                                <li class="colorRed"></li>
+                                <li class="colorBlue"></li>
+                                <li class="colorYellow"></li>
+                            </ul>
+                            <div class="addCart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <ul class="optionSize">
+                                <li>S</li>
+                                <li>M</li>
+                                <li>L</li>
+                                <li>XL</li>
+                            </ul>
+                        </div>
+                        <div class="product__infoBasic">
+                            <div class="product__infoBasic--title">
+                                Quan ao phong cach Han Quoc
+                            </div>
+                            <div class="product__infoBasic--price">
+                                500.000 đ
+                            </div>
+                        </div>
+                        <span class="product__trademark">
+                            GUCCI
+                        </span>
+                    </div>
+                    <div class="product__item">
+                        <div class="product__item--image">
+                            <div class="add__heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img src="https://file.hstatic.net/1000197303/file/gam_mau_trung_tinh_a8b4f4b1e61244e88d3c9afad23871f2.jpg" alt="">
+                            <ul class="optionColor">
+                                <li class="colorRed"></li>
+                                <li class="colorBlue"></li>
+                                <li class="colorYellow"></li>
+                            </ul>
+                            <div class="addCart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <ul class="optionSize">
+                                <li>S</li>
+                                <li>M</li>
+                                <li>L</li>
+                                <li>XL</li>
+                            </ul>
+                        </div>
+                        <div class="product__infoBasic">
+                            <div class="product__infoBasic--title">
+                                Quan ao phong cach Han Quoc
+                            </div>
+                            <div class="product__infoBasic--price">
+                                500.000 đ
+                            </div>
+                        </div>
+                        <span class="product__trademark">
+                            GUCCI
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__heading">
+                <div class="footer__heading--logo">
+                </div>
+                <div class="footer__heading--slog">
+                    Shop quần áo thời thượng
+                </div>
+            </div>
+            <div class="footer__info">
+                <div class="footer__info--item usAbout">
+                    <div class="footer__info--heading usAbout__heading">
+                        Về chúng tôi
+                    </div>
+                    <ul class="usAbout__list">
+                        <li>Giới thiệu SWEET LOVE</li>
+                        <li>Địa chỉ cửa hàng</li>
+                        <li>Diều khoản & Chính sách</li>
+                        <li>Chính sách hoàn trả</li>
+                    </ul>
+                </div>
+                <div class="footer__info--item transport">
+                    <div class="footer__info--heading transport__heading">
+                        Đơn vị vận chuyển 
+                    </div>
+                    <ul class="transport__list">
+                        <li>
+                            <img src="https://cf.shopee.vn/file/5e7282bd0f7ee0872fdb0bd1d40fbe9e" alt="">
+                        </li>
+                        <li>
+                            <img src="https://cf.shopee.vn/file/0d349e22ca8d4337d11c9b134cf9fe63" alt="">
+                        </li>
+                        <li>
+                            <img src="https://cf.shopee.vn/file/77bf96a871418fbc21cc63dd39fb5f15" alt="">
+                        </li>
+                        <li>
+                            <img src="https://cf.shopee.vn/file/3900aefbf52b1c180ba66e5ec91190e5" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__info--item contact">
+                    <div class="footer__info--heading contact__heading">
+                        Theo dõi & Liên hệ
+                    </div>
+                    <ul class="contact__list">
+                        <li>
+                            <i class="fa-brands fa-facebook"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

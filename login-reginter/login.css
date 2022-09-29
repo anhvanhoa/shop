@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200&family=Oswald:wght@600&family=Pattaya&family=Quicksand&family=Saira+Condensed:wght@600&family=Space+Mono:ital,wght@1,700&display=swap');
+
+.root {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.root__logo {
+    background: url(/image/thiet-ke-logo-thoi-trang-02-removebg-preview.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    transform: scale(250%);
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.root__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;bottom: 0;
+    background: url(https://static.vecteezy.com/system/resources/previews/002/932/011/original/luxury-men-fashion-suits-displaying-on-mannequins-at-store-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    z-index: -1;
+}
+
+.form__login {
+    background-color: #fff;
+    width: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form__login--heading {
+    font-size: 3rem;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.group__form {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.group__form input {
+    border: 0.5px solid rgb(171, 171, 171);
+    width: 300px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    color: gray;
+}
+
+.form__login p {
+    margin-left: -130px;
+    margin-bottom: 10px;
+}
+
+.form__login button {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #476369;
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+}
